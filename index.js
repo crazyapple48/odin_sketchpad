@@ -11,5 +11,9 @@ for (let i = 0; i < (16*16); i++) {
         height: ${itemWidthPercentage}%;
     `
 
+    box.addEventListener("mouseenter", () => {
+        box.classList.add("active");
+    })
+
     container.appendChild(box);
 }
