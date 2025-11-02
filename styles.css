@@ -1,0 +1,16 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 3px solid purple;
+    height: 760px;
+    width: 1240px;
+    margin: 15px;
+}
