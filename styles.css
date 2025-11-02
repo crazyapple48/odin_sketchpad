@@ -8,9 +8,24 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
-    border: 3px solid purple;
-    height: 760px;
-    width: 1240px;
-    margin: 15px;
+    width: 980px;
+    height: 800px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.box {
+    border: 3px solid green;
+    box-sizing: border-box;
 }
